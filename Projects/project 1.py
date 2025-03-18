@@ -17,3 +17,6 @@ s2.set_size(0.5)
 s3=codesters.Sprite("panda 2",100,-100)
 s3.set_size(0.9)
 s4=codesters.Sprite("cardinal",-100,100)
+
+message1=codesters.Text("Madison",0,220,"black")
+message2=codesters.Text("Hi",0,-220,"black")
