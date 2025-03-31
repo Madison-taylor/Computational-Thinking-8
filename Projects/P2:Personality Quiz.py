@@ -12,6 +12,7 @@ elif answer=="B":
 elif answer=="C":
     Moana_points+=1
 
+#question 2
 answer=input ("Are you most A) independent,or B) fearless, or C resourceful")
 if answer=="A":
     Cinderella_points+=1
@@ -19,6 +20,33 @@ elif answer=="B":
     Moana_points+=1
 elif answer=="C":
     Tiana_Points+=1
+
+#question 3
+answer=input ("whats the closest color of hair do you have A) blond,or B) brown, or C black")
+if answer=="A":
+    Cinderella_points+=1
+elif answer=="B":
+    Moana_points+=1
+elif answer=="C":
+    Tiana_Points+=1
+
+#question 4
+answer=input ("whats ur fav type of music A) classical,or B) Polynesian-inspired, or C jazz")
+if answer=="A":
+    Cinderella_points+=1
+elif answer=="B":
+    Moana_points+=1
+elif answer=="C":
+    Tiana_Points+=1 
+
+#question 5
+answer=input ("whats ur fav color A) blue,or B) brown, or C green")
+if answer=="A":
+    Cinderella_points+=1
+elif answer=="B":
+    Moana_points+=1
+elif answer=="C":
+    Tiana_Points+=1 
 
 #end of quiz:
 if Cinderella_points> Moana_points and Cinderella_points > Tiana_Points:
