@@ -55,3 +55,15 @@ elif Tiana_Points> Moana_points and Tiana_Points > Cinderella_points:
     print("You are most like Tiana")
 elif Moana_points> Tiana_Points and Moana_points > Cinderella_points:
     print("You are most like Moana")
+elif Cinderella_points and Moana_points > Tiana_Points:
+    print("you are both most like Cinderella and moana")
+elif Cinderella_points and Tiana_Points > Moana_points:
+    print("you are both most like Cinderella and Tiana")
+elif Moana_points and Tiana_Points > Cinderella_points:
+    print("you are both most like Moana and Tiana")
+elif Moana_points and Cinderella_points > Tiana_Points:
+    print("you are both most like Moana and cinderella")
+elif Tiana_Points and Cinderella_points > Moana_points:
+    print("you are both most like Tiana and cinderella")
+elif Tiana_Points and Moana_points > Cinderella_points:
+    print("you are both most like Tiana and Moana")
