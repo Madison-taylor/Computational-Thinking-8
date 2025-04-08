@@ -5,7 +5,7 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 stage.set_background("park")
-
+#colors
 q1=codesters.Square (100,100,200 ,'LightBlue')
 q1=codesters.Square (-100,100,200, 'CornflowerBlue')
 q1=codesters.Square (-100,-100,200, 'RoyalBlue')
