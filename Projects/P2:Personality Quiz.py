@@ -11,7 +11,6 @@ elif answer=="B":
     Cinderella_points+=1
 elif answer=="C":
     Moana_points+=1
-
 #question 2
 answer=input ("Are you most A) independent,or B) fearless, or C resourceful")
 if answer=="A":
@@ -67,4 +66,3 @@ elif Tiana_Points and Cinderella_points > Moana_points:
     print("you are both most like Tiana and cinderella")
 elif Tiana_Points and Moana_points > Cinderella_points:
     print("you are both most like Tiana and Moana")
-    
