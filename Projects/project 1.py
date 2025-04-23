@@ -20,3 +20,4 @@ s4=codesters.Sprite("cardinal",-100,100)
 
 message1=codesters.Text("Madison",0,220,"black")
 message2=codesters.Text("Hi",0,-220,"black")
+
